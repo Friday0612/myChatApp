@@ -1,11 +1,11 @@
 const https = require('https');
 require('dotenv').config();
 
-const API_KEY = process.env.XUNFEI_API_KEY;
+const API_KEY = process.env.API_KEY;
 
 // 测试数据
 const testData = {
-  model: 'xop3qwen1b7',
+  model: 'xopdeepseekv32',
   messages: [
     { role: 'user', content: '你好，请简单介绍一下自己' }
   ],
